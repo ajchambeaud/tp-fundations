@@ -106,6 +106,7 @@ Las siguientes consultas estan disponibles
 
 ### Obtener lista de los 10 libros más calificados.
 
+```
 {
  getMoreRatedBooks {
    book,
@@ -113,19 +114,22 @@ Las siguientes consultas estan disponibles
    numberOfRatings
  }
 }
-
+```
 
 ### Obtener lista de los 10 libros mejor calificados.
 
+```
 {
  getBestRatedBooks {
    book,
    averageRating
  }
 }
+```
 
 ### Obtener lista de los 10 libros más calificados por país.
 
+```
 {
  getMoreRatedBooksByCountry (country: "argentina") {
    book,
@@ -133,3 +137,4 @@ Las siguientes consultas estan disponibles
    numberOfRatings
  }
 }
+```
